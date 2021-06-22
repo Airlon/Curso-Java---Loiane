@@ -8,8 +8,8 @@ public class variaveis {
 		String nome= "Airlon";
 		String nomeDoMeuCachorro= "Mile";
 		
-		//System.out.println("Idade é: " +idade);
-		//System.out.print("Nome: " +nome);
+		System.out.println("Idade é: " +idade);
+		System.out.print("Nome: " +nome);
 		
 		
 	}
