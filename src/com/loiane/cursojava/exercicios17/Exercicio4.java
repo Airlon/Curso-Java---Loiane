@@ -3,24 +3,27 @@ package com.loiane.cursojava.exercicios17;
 public class Exercicio4 {
 
 	public static void main(String[] args) {
+		
+		int popA = 80000;
+		int popB= 200000;
+		int cont = 0;
+		
+		while(popA < popB) {
+		
+		popA += (popA/100)* 3;
+		popB += (popB/100)* 1.5;
+		cont++;		
+		
+	}
 
-        double a = 80000, b=200000;
-        
-        int ano = 0;
-        
-        do {
-        	   a = a+a*0.03;
-        	   b = b+b*0.015;
-        	   
-        	  ano = ano +1;
-        	   
-        }while (a<=b);
-        
-        System.out.println("Anos: "+ano);
-        	
-        } 
-        
+   System.out.println("População A " +popA);
+   System.out.println("População B " +popB); 
+   System.out.println("Números de anos necessário: " +cont);
+
 
 	}
+}
+
+
 
 
